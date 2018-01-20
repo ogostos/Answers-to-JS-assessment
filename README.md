@@ -37,46 +37,6 @@ The command line runner is a work in progress; contributions welcome :)
 The repo includes jQuery, Backbone, and Underscore. You can use these
 libraries when writing your solutions!
 
-## I want to contribute tests; what do I do?
-
-Submit a pull request! The tests are currently loosely organized by topic, so
-you should do your best to add tests to the appropriate file in `tests/app`, or
-create a new file there if you don't see an appropriate one. If you do create
-a new file, make sure to add it to `tests/runner.js`, and to add a stub for the
-solution to the corresponding file in `app/`. Finally, it would be great if you
-could update the [answers](https://github.com/rmurphey/js-assessment-answers)
-as well.
-
-If you're not sure how or where to add a test, please open an issue.
-
-### Data-driven tests
-
-If your tests need data that can be fetched via XHR, stick a `.json` file in
-the `data` directory; you can access it at `/data/<filename>.json`.
-
-## I want to see the answers!
-
-First, bear in mind that looking up the answers is going to teach you a whole
-lot less than you'll learn by working on the tests, even if you occasionally get
-stuck. I'd recommend only looking at the answers once you have the tests
-passing, to see if there's another way you could have approached the
-problem. When you're ready to look at the answers, you can find them
-[here](https://github.com/rmurphey/js-assessment-answers); I'll do my best to
-keep them up to date.
-
-## I hate \<some technology you've chosen\>
-
-This repo uses [Mocha](https://github.com/mochajs/mocha) and
-[Chai](http://chaijs.com/) for the tests themselves. It uses the BDD style for authoring tests.
-If this doesn't suit you, please fork away, or, better, submit a pull request that lets
-this be more flexible than it currently is.
-
-# Todos
-
-There are a number of things that would make this project better; check out the
-[issues](https://github.com/rmurphey/js-assessment/issues) for details, pull
-requests welcome!
-
 # License
 
 Copyright &copy; 2012-2016 Rebecca Murphey with many thanks to several
